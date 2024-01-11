@@ -51,7 +51,7 @@ const TodoItem: React.FC<TodoItemProps> = ({
             text
             raised
             severity="success"
-            aria-label="Cancel"
+            aria-label="Update"
             onClick={handleUpdate}
             disabled={todo.completed}
           />

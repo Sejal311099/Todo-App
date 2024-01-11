@@ -100,7 +100,7 @@ const TodoApp: React.FC = () => {
           text
           raised
           severity="info"
-          aria-label="Cancel"
+          aria-label="Add"
           onClick={addTodo}
         />
       </div>

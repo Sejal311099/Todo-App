@@ -1,10 +1,24 @@
-# Getting Started with Create React App
+# React TypeScript Todo App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A simple Todo App built with React and TypeScript, featuring local storage persistence to keep your todos even after a page refresh.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+Add new todos
+Delete existing todos
+Edit and update todo text
+Mark todos as completed or incomplete
+Local storage persistence for data retention on page refresh
+
+## Technologies Used
+
+React
+TypeScript
+
+# Getting Started
+
+### Clone the repository:
+https://github.com/Sejal311099/Todo-App.git
 
 ### `npm start`
 
@@ -44,3 +58,15 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+
+## Usage
+
+- Add a new todo by entering text in the input field and clicking the "Add" button.
+- Delete a todo by clicking the delete icon next to the todo.
+- Edit a todo by clicking the Todo, modifying the text, and clicking the "Update" button.
+- Mark a todo as completed or incomplete by clicking the checkbox next to the todo.
+
+## Local Storage Persistence
+
+The app utilizes local storage to persist todos between page refreshes. Your todos will be saved locally, and you can continue working on them even after closing and reopening the browser.
